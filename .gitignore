@@ -1,0 +1,10 @@
+# tool outputs
+*.log
+*.tgz
+
+# non-source files
+node_modules/
+dist/
+
+# other
+.DS_Store
