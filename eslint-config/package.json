@@ -1,6 +1,6 @@
 {
   "name": "@pcordjs/eslint-config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "ESLint config for @pcordjs projects",
   "main": "./.eslintrc.json",
   "exports": "./.eslintrc.json",
