@@ -54,6 +54,59 @@
     "curly": [2, "multi-or-nest"],
     "no-await-in-loop": 1,
     "radix": 1,
+    "no-restricted-imports": [
+      2,
+      {
+        "patterns": [
+          {
+            "group": [
+              "assert",
+              "async_hooks",
+              "buffer",
+              "child_process",
+              "cluster",
+              "console",
+              "crypto",
+              "diagnostics_channel",
+              "dns",
+              "domain",
+              "errors",
+              "events",
+              "fs",
+              "http",
+              "http2",
+              "https",
+              "inspector",
+              "module",
+              "net",
+              "os",
+              "path",
+              "perf_hooks",
+              "process",
+              "punycode",
+              "querystring",
+              "readline",
+              "repl",
+              "stream",
+              "string_decoder",
+              "timers",
+              "tls",
+              "trace_events",
+              "tty",
+              "dgram",
+              "url",
+              "util",
+              "v8",
+              "vm",
+              "wasi",
+              "worker_threads",
+              "zlib"
+            ],
+            "message": "Consider adding the `node:` prefix."
+          }
+        ]
+      }
+    ],
     /*
      *These two catch code that is likely accidental,
      * and sticking around from development.
